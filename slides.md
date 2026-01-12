@@ -9,6 +9,7 @@ mdc: true
 ---
 
 # Ethanol
+von **Jann Hoffmann** & **Karl Oskar Böhme**, TIG 23
 
 <style>
 .slidev-layout::before {
