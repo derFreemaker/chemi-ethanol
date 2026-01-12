@@ -171,6 +171,7 @@ layout: center
 - https://gestis.dguv.de/data?name=010420
 - https://www.lernhelfer.de/schuelerlexikon/chemie-abitur/artikel/ethanol-eigenschaften-und-verwendung
 - https://www.chemieunterricht.de/dc2/r-oh/alk-synt.htm
+- https://www.youtube.com/watch?v=d9by-uw8GBM
 
 </div>
 
