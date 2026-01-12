@@ -31,7 +31,7 @@ const createLabelSprite = (letter, atomColor) => {
     depthTest: false 
   })
   const sprite = new THREE.Sprite(spriteMaterial)
-  sprite.scale.set(0.5, 0.5, 1)
+  sprite.scale.set(0.6, 0.6, 1)
   return sprite
 }
 
@@ -40,6 +40,7 @@ onMounted(() => {
   camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000)
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
   renderer.setSize(props.size, props.size)
+  renderer.setDrawingBufferSize(1920, 1080, 1)
   container.value.appendChild(renderer.domElement)
 
   const light = new THREE.AmbientLight(0xffffff, 2.5)
