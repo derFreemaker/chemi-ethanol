@@ -146,7 +146,7 @@ layout: center
     :enter="{ y: -190, transition: { delay: 4000, duration: 1000 } }"
 >
 
-# Thank you for listening
+# Danke für die Aufmerksamkeit
 
 <PoweredBySlidev/>
 
